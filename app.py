@@ -9,8 +9,8 @@ import streamlit as st
 import pandas
 import pickle
 
-data = pickle.load(open('E:/deployment/netflix/data_new.pkl','rb'))
-similarities = pickle.load(open('E:/deployment/netflix/similarity_git.pkl','rb'))
+data = pickle.load(open('data_new.pkl','rb'))
+similarities = pickle.load(open('similarity_git.pkl','rb'))
 
 
 
